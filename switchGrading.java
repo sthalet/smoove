@@ -1,7 +1,7 @@
 public class switchGrading {
     public static void main(String[] args) {
         char grade;
-        grade = 'H';
+        grade = 'A';
         switch (grade) {
             case 'A':
                 System.out.println("you did great!");
