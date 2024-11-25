@@ -15,18 +15,12 @@ int main(){
             sonSayi = sayi;
         }
         else{
-            
-        
-            
             birler = sonSayi %10;
             yeniSayi = (sonSayi/10) + (birler*10);
             sonSayi = abs(yeniSayi-sonSayi);
             i++;
-        
     }
     }while(sonSayi>9);
-    
     printf("cikarma zinciri uzunlugu: %d",i+1);
     return 0;
-
 }

@@ -5,10 +5,10 @@ int main(){
     int max = 0;
     int count = 0;
     while(araba != 0){
-        printf("Giren arabanin modelini giriniz");
+        printf("\nGiren arabanin modelini giriniz");
         scanf("%d",&araba);
         if (!((araba<10000) && (araba>999))){
-            printf("4 haneli bir sayi giriniz.");
+            printf("\n4 haneli bir sayi giriniz.");
             continue;
         }
         if(max<araba){
