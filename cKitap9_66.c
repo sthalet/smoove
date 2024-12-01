@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include<stdlib.h>
+int zincir(int);
 int main(){
-    int zincir(int);
-    printf("%d",zincir(19));
+    
+    printf("%d\n",zincir(19));
+    printf("%d",zincir(32));
     return 0 ;
 }
 int zincir(int sayi){
@@ -19,4 +21,3 @@ int zincir(int sayi){
 }
 
 
-//bitti.
